@@ -1,6 +1,8 @@
 ## 2213_cikm
 ~~**As this paper is conducted with the help of Ant Group, so we need to follow the rule of the open source code of Ant Group. We are positively tracking the approval process of Ant Group, and our final code will be released in the following week.**~~
+
 **We have released our code at [here](https://github.com/jkdxg8837/Relevance-Relation-Extraction)!**
+
 This is an implementation code for "Extracting Semantic Relevance Relation Between Mini Program and Content in Super App".
 In this paper, we study the relationship between the head and tail entities in the knowledge graph. As a result, we propose a new downstream task called Relation Relevance Extraction(RRE) accompanied by a human-annotated dataset in a real-world Alipay scenario. What's more, we use this score in the downstream recommendation task to prove it can mitigate popularity bias in item-centric and user-centric tasks.
 We use SimKGC as our baseline. Despite the topology generating and fusing module, the rest of our model follows a plug-in style, which indicates you can construct dataset and run the code by following the instruction provided by SimKGC.
